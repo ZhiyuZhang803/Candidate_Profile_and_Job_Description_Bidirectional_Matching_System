@@ -1,4 +1,5 @@
 # Candidate_Profile_and_Job_Description_Bidirectional_Matching_System
+- MUST READ: In order to protect our Candidate, this repo doesn't contain any dataset that includes real candidte information. If you need some test cases in any folder/file, please contact the Author (zhiyuzha@usc.edu) for more information!
 - This repo contains all files needed for constructing NLP based bidirectional matching system between candidate profile and job description and improve the efficiency as well as the accuracy in matching process.
 - This system was first constructed during summer 2022 internship but is improved and will improve continuously.
 - If you have any question or just show strong interest towards our project, please do not hesitate to contact the Author via zhiyuzha@usc.edu.
