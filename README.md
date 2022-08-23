@@ -15,8 +15,7 @@ In order to compare the similarity of two text-based content (candidate profile 
 1. Read Candidate Profile and Job Description & transform them to uniform json format
 2. Use NLP NER to identify and label the key words occured in the first step
 3. Project the key words into predefined recruiting matrix and transform each profile/JD into a vector
-4. Calculate 
-
+4. Calculate the cosine similarities between profile and JD and recommend based on rankings
 
 ## Introduction of Files and Datasets in this Repo:
 - This repo contains 1 Powerpoint File and 1 Folder (Contains All Code and Data Files). All files and folders will be introduced in this section.
@@ -26,3 +25,24 @@ In order to compare the similarity of two text-based content (candidate profile 
 2. Content: The detailed introduction and workflow of whole project.
 
 ### Matching System Folder
+#### Construct Major and Title Datasets Folder
+##### Construct Job Title Dataset:
+- We use O*NET&zety online resource, combined with our database, to construct a cleaned dataset that contains job title in the market as many as possible.
+1. File(s): scrap job title.ipynb, uncleaned_job_title.xlsx
+2. Content: Get job titles from https://zety.com/blog/job-titles. Result can be found in the corresponding excel file.
+1. File(s): 
+
+   
+##### Construct Major Dataset
+
+#### Construct Skillset Folder
+##### Construct Hardskill Set
+##### Construct Softskill Set
+
+#### Profile Cleaning Before Input Folder
+##### Clean Candidate Profile
+##### Clean JD Profile
+
+#### Structure and Implementation of Matching System Folder
+
+
