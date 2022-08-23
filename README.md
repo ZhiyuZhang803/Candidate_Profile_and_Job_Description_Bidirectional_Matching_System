@@ -26,15 +26,18 @@ In order to compare the similarity of two text-based content (candidate profile 
 2. Content: The detailed introduction and workflow of whole project.
 
 ### Matching System Folder
+
 #### Construct Major and Title Datasets Folder
 ##### Construct Job Title Dataset:
-- We use O*NET&zety online resource, combined with our database, to construct a cleaned dataset that contains job title in the market as many as possible.
-1. File(s): scrap job title.ipynb, uncleaned_job_title.xlsx
-2. Content: Get job titles from https://zety.com/blog/job-titles. Result can be found in the corresponding excel file.
-1. File(s): 
-
-   
+- We use O*NET&zety online resources to construct a cleaned dataset that contains job titles in the market as many as possible.
+1. File(s): scrap job title.ipynb -> uncleaned_job_title.xlsx -> clean_jobtitle.ipynb -> title_final.xlsx
+2. Content: Get job titles from https://zety.com/blog/job-titles and do data cleaning. Results can be found in the corresponding excel files.
+1. File(s): title_final.xlsx & XXX_job_title.xlsx (6 files) -> add_additional_job_titles.ipynb -> title_final.xlsx (cover the previous file with same name)
+2. Content: Combine job titles scraped from https://www.onetonline.org with titles from the first step. Result can be found in the corresponding excel files.  
 ##### Construct Major Dataset
+- We use act.org online resource, combined with self-owned dataset, to construct a cleaned dataset that contains majors in the college as many as possible.
+1. File(s): webscrap_major.ipynb -> student_major.csv & student_major2.csv -> create student major.ipynb -> major.xlsx
+2. Content: Get job titles
 
 #### Construct Skillset Folder
 ##### Construct Hardskill Set
