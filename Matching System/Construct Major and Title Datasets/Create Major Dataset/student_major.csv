@@ -1,0 +1,295 @@
+,Major Name
+0,"Agriculture, General"
+1,Agribusiness Operations
+2,Agricultural Business & Management
+3,Agricultural Economics
+4,Agricultural Mechanization
+5,Agricultural Production
+6,Agronomy & Crop Science
+7,Animal Sciences
+8,Food Sciences & Technology
+9,Horticulture Operations & Management
+10,Horticulture Science
+11,"Natural Resources Conservation, General"
+12,Environmental Science
+13,Forestry
+14,Natural Resources Management
+15,Wildlife & Wildlands Management
+16,"Architecture, General"
+17,Architectural Environmental Design
+18,City/Urban/Regional Planning
+19,Interior Architecture
+20,Landscape Architecture
+21,"Area Studies, General (e.g., African, Middle Eastern)"
+22,Asian Area Studies
+23,European Area Studies
+24,Latin American Area Studies
+25,North American Area Studies
+26,"Ethnic & Minority Studies, General"
+27,African American Studies
+28,American Indian/Native American Studies
+29,Latino/Chicano Studies
+30,Women’s Studies
+31,Liberal Arts & General Studies*
+32,Library Science
+33,Multi/Interdisciplinary Studies*
+34,"Art, General"
+35,"Art History, Criticism & Conservation"
+36,Fine/Studio Arts
+37,Cinema/Film
+38,Cinematography/Film/Vide Production
+39,Dance
+40,"Design & Visual Communications, General"
+41,Fashion/Apparel Design
+42,Graphic Design
+43,Industrial Design
+44,Interior Design
+45,"Music, General"
+46,"Music, Performance"
+47,"Music, Theory & Composition"
+48,Photography
+49,Theatre Arts/Drama
+50,Accounting
+51,Accounting Technician
+52,"Business Administration & Management, General"
+53,Hotel/Motel Management
+54,Human Resources Development/Training
+55,Human Resources Management
+56,International Business Management
+57,Labor/Industrial Relations
+58,Logistics & Materials Management
+59,Marketing Management & Research
+60,Office Supervision & Management
+61,Operations Management & Supervision
+62,Organizational Behavior
+63,Purchasing/Procurement/Contracts Management
+64,Restaurant/Food Services Management
+65,Small Business Management/Operations
+66,Travel/Tourism Management
+67,"Business/Management Quantitative Methods, General"
+68,Actuarial Science*
+69,Business/Managerial Economics
+70,"Finance, General"
+71,Banking & Financial Support Services
+72,Financial Planning & Services
+73,Insurance & Risk Management
+74,Investments & Securities
+75,Management Information Systems
+76,Real Estate
+77,"Sales, Merchandising, & Marketing, General"
+78,Fashion Merchandising
+79,Tourism & Travel Marketing
+80,Secretarial Studies & Office Administration
+81,"Communications, General"
+82,Advertising
+83,Digital Communications/Media
+84,"Journalism, Broadcast"
+85,"Journalism, Print"
+86,Mass Communications
+87,Public Relations & Organizational Communication
+88,Radio & Television Broadcasting
+89,"Communications Technology, General"
+90,Graphic & Printing Equipment Operation*
+91,Multimedia/Animation/Special Effects
+92,Radio & Television Broadcasting Technology*
+93,"Family & Consumer Sciences, General"
+94,Adult Development & Aging/Gerontology
+95,Child Care Services Management
+96,Child Development
+97,Consumer & Family Economics
+98,Food & Nutrition
+99,Textile & Apparel
+100,"Parks, Recreation, & Leisure, General"
+101,Exercise Science/Physiology/Kinesiology
+102,Health & Physical Education/Fitness
+103,Parks/Rec/Leisure Facilities Management
+104,Sport & Fitness Administration/Management
+105,"Personal Services, General*"
+106,Cosmetology/Hairstyling*
+107,Culinary Arts/Chef Training
+108,Funeral Services & Mortuary Science
+109,"Protective Services, General"
+110,Corrections
+111,Criminal Justice
+112,Fire Protection & Safety Technology
+113,Law Enforcement
+114,Military Technologies*
+115,"Public Administration & Services, General"
+116,Community Organization & Advocacy
+117,Public Administration
+118,Public Affairs & Public Policy Analysis
+119,Social Work
+120,"Computer & Information Sciences, General"
+121,Computer Networking/Telecommunications
+122,Computer Science & Programming
+123,Computer Software & Media Applications
+124,Computer System Administration
+125,Data Management Technology
+126,Information Science
+127,Webpage Design
+128,"Mathematics, General"
+129,Applied Mathematics
+130,Statistics
+131,Counseling & Student Services
+132,Educational Administration
+133,Special Education
+134,"Teacher Education, General"
+135,Curriculum & Instruction
+136,Early Childhood Education
+137,Elementary Education
+138,Junior High/Middle School Education
+139,Postsecondary Education
+140,Secondary Education
+141,Teacher Assisting/Aide Education
+142,"Teacher Education, Subject-Specific*"
+143,Agricultural Education
+144,Art Education
+145,Business Education
+146,Career & Technical Education
+147,English-as-a-Second-Language Education
+148,English/Language Arts Education
+149,Foreign Languages Education
+150,Health Education
+151,Mathematics Education
+152,Music Education
+153,Physical Education & Coaching
+154,Science Education
+155,Social Studies/Sciences Education
+156,"Engineering (Pre-Engineering), General"
+157,Aerospace/Aeronautical Engineering
+158,Agricultural/Bioengineering
+159,Architectural Engineering
+160,Biomedical Engineering
+161,Chemical Engineering
+162,Civil Engineering
+163,Computer Engineering
+164,Construction Engineering/Management
+165,"Electrical, Electronics & Communications Engineering"
+166,Environmental Health Engineering
+167,Industrial Engineering
+168,Mechanical Engineering
+169,Nuclear Engineering
+170,"Drafting/CAD Technology, General"
+171,Architectural Drafting/CAD Technology
+172,Mechanical Drafting/CAD Technology
+173,"Engineering Technology, General"
+174,Aeronautical/Aerospace Engineering Technologies
+175,Architectural Engineering Technology
+176,Automotive Engineering Technology
+177,Civil Engineering Technology
+178,Computer Engineering Technology
+179,Construction/Building Technology
+180,"Electrical, Electronics Engineering Technologies"
+181,Electromechanical/Biomedical Engineering Technologies
+182,Environmental Control Technologies
+183,Industrial Production Technologies
+184,Mechanical Engineering Technology
+185,Quality Control & Safety Technologies
+186,Surveying Technology
+187,"English Language & Literature, General"
+188,American/English Literature
+189,Creative Writing
+190,Public Speaking
+191,"Foreign Languages/Literatures, General"
+192,Asian Languages & Literatures
+193,Classical/Ancient Languages & Literatures
+194,Comparative Literature
+195,French Language & Literature
+196,German Language & Literature
+197,Linguistics
+198,Middle Eastern Languages & Literatures
+199,Spanish Language & Literature
+200,"Health Services Administration,General"
+201,Hospital/Facilities Administration
+202,Medical Office/Secretarial
+203,Medical Records
+204,"Medical/Clinical Assisting, General"
+205,Dental Assisting
+206,Medical Assisting
+207,Occupational Therapy Assisting
+208,Physical Therapy Assisting
+209,Veterinarian Assisting/Technology
+210,Chiropractic (Pre-Chiropractic)
+211,Dental Hygiene
+212,Dentistry (Pre-Dentistry)
+213,Emergency Medical Technology
+214,"Health-Related Professions & Services, General*"
+215,Athletic Training
+216,"Communication Disorder Services (e.g., Speech Pathology)"
+217,Public Health
+218,"Health/Medical Technology, General"
+219,Medical Laboratory Technology
+220,Medical Radiologic Technology
+221,Nuclear Medicine Technology
+222,Respiratory Therapy Technology
+223,Surgical Technology
+224,Medicine (Pre-Medicine)
+225,"Nursing, Practical/Vocational (LPN)"
+226,"Nursing, Registered (BS/RN)"
+227,Optometry (Pre-Optometry)
+228,Osteopathic Medicine
+229,Pharmacy (Pre-Pharmacy)
+230,Physician Assisting
+231,"Therapy & Rehabilitation, General"
+232,Alcohol/Drug Abuse Counseling
+233,Massage Therapy
+234,Mental Health Counseling
+235,Occupational Therapy
+236,Physical Therapy (Pre-Physical Therapy)
+237,Psychiatric/Mental Health Technician
+238,Rehabilitation Therapy
+239,Vocational Rehabilitation Counseling
+240,Veterinary Medicine (Pre-Veterinarian)
+241,Philosophy
+242,Religion
+243,"Theology, General"
+244,Bible/Biblical Studies
+245,Divinity/Ministry
+246,Religious Education
+247,"Aviation & Airway Science, General"
+248,Aircraft Piloting & Navigation
+249,Aviation Management & Operations
+250,"Construction Trades (e.g., carpentry, plumbing, electrical)"
+251,"Mechanics & Repairers, General"
+252,Aircraft Mechanics/Technology
+253,Autobody Repair/Technology
+254,Automotive Mechanics/Technology
+255,Avionics Technology
+256,Diesel Mechanics/Technology
+257,Electrical/Electronics Equip Installation & Repair
+258,Heating/Air Cond/Refrig Install/Repair
+259,"Precision Production Trades, General"
+260,Machine Tool Technology
+261,Welding Technology
+262,"Transportation & Materials Moving (e.g., air, ground, & marine)"
+263,"Biology, General"
+264,Biochemistry & Biophysics
+265,Cell/Cellular Biology
+266,Ecology
+267,Genetics
+268,Marine/Aquatic Biology
+269,Microbiology & Immunology
+270,Zoology
+271,"Physical Sciences, General"
+272,Astronomy
+273,Atmospheric Sciences & Meteorology
+274,Chemistry
+275,Geological & Earth Sciences
+276,Physics
+277,"Legal Studies, General*"
+278,Court Reporting*
+279,Law (Pre-Law)
+280,Legal Administrative Assisting/Secretarial*
+281,Paralegal/Legal Assistant
+282,"Social Sciences, General"
+283,Anthropology
+284,Criminology
+285,Economics
+286,Geography
+287,History
+288,International Relations & Affairs
+289,Political Science & Government
+290,"Psychology, Clinical & Counseling"
+291,"Psychology, General"
+292,Sociology
+293,Urban Studies/Urban Affairs
