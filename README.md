@@ -12,9 +12,10 @@ Matching system is one of the most popular artificial intelligence systems for c
 - Core Algorithms:
 In order to compare the similarity of two text-based content (candidate profile and job description), we need to clean the original dataset (seperate words and remove useless words), vectorize core features (transfor from text to numerical data) and project the vector to pre-defined recruiting matrix (recruiting maxtrix that contains all features we need to evaluate). Finally, calculate cosine similarity between features and select candidate with high number.
 - Basic Workflow:
-1.
-2.
-3.
+1. Read Candidate Profile and Job Description & transform them to uniform json format
+2. Use NLP NER to identify and label the key words occured in the first step
+3. Project the key words into predefined recruiting matrix and transform each profile/JD into a vector
+4. Calculate 
 
 
 ## Introduction of Files and Datasets in this Repo:
