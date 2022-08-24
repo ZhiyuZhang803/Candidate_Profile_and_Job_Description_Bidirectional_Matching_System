@@ -25,6 +25,7 @@ In order to compare the similarity of two text-based content (candidate profile 
 1. File(s): Matching System Detailed Explanation. pptx
 2. Content: The detailed introduction and workflow of whole project.
 
+
 ### Matching System Folder
 
 #### Construct Major and Title Datasets Folder
@@ -41,6 +42,7 @@ In order to compare the similarity of two text-based content (candidate profile 
 1. File(s): major.xlsx & more_majors.xlsx -> add_more_majors.ipynb -> temp_merged_major.xlsx
 2. Content: Combined self-owned major dataset with dataset from the first step, continually expand the dataset. Result can be found in the corresponding excel files.
 
+
 #### Construct Skillset Folder
 ##### Construct Hardskill Set
 - We use O * NET online resoures, combined with some acvanced data processing techniques, to construct a cleaned json-format dataset that can be passed in NLP SpaCy Named Entity Recognition. 143 groups of and over 3000 single items of hardskills can be recognized.
@@ -51,13 +53,35 @@ In order to compare the similarity of two text-based content (candidate profile 
 3. Content: Clean and expand hard skill dataset. Try to cover all possible situations that may occur in profile (e.g. Microsoft Powerpoint, Powerpoint, PPT may point to the same skillset). Readable result can be found in the cleaned_skillset.xlsx and SpaCy usable result can be found in the hardskills.json.
 ##### Construct Softskill Set
 - We use O * NET online resoures, combined with some acvanced data processing techniques, to construct a cleaned json-format dataset that can be used for detecting softskills in original data. 40 groups of and over 2000 single items of hardskills can be recognized.
-1. Folder(s): 
+1. Folder(s): active_listening/math/reading_comprehension/science/speaking/writing_position
+2. Content: Gather softskill related information (activity, content and soft skills for each position) for different types of position from O * NET website. Results can be found in XXX_skillset.xlsx file in each folder.
+3. Folder(s): merge_activity, merge_softskills, merge_work_content
+4. Content: Merge and clean the activities, softskills and work contents for each type of job.
+5. Folder(s): softskills dataset
+6. Stream of the files: pre_softskills_matrix.xlsx -> USE GOOGLE GET SOFT SKILLS.ipynb (or USE NEUR DATASET TO GET SOFT SKILLS.ipynb (template)) -> final_skill_keyword.xlsx -> softskills.json
+7. Content: Expand the softskill key word dataset to accommodate different expressions of same softskills with google pre-trained dataset. (NEUR can also be a choice for this step) Readable result can be found in final_skill_keyword.xlsx and NLP usable format can be found in softskills.json.
+
 
 #### Profile Cleaning Before Input Folder
 - This part may contain some sensitive information, please contact author for test case if you need.
 ##### Clean Candidate Profile
+- We use advanced NLP and data processing skills to deal with noisy data in original candidate profile and transform each profile into a managable dataset.
+1. Folder(s): parse from csv
+2. Content: Parse Candidate Profile to uniform json-format information.
+3. File(s): temped_merged_major.xlsx/ title_final.xlsx -> clean_candidate_profile.ipynb
+4. Content: Class that clean and store candidate profile.
 ##### Clean JD Profile
+- We use advanced NLP and data processing skills to deal with noisy data in original job description and transform each JD into a managable dataset.
+1. File(s): matching responsibility.xlsx (test case)/ temp_merged_major.xlsx/title_final.xlsx -> clean_dataset_before_input.ipynb
+2. Content: Class that clean and store job description.
+
 
 #### Structure and Implementation of Matching System Folder
-
+- We use all information & dataset prepared above to transform each profile into a vector.
+1. File(s): hardskills.json & softskills.json ->project_to_recruiting_matrix.ipynb
+2. Content: Class that do transformation. (uncompleted, still working on)
+3. File(s): project_to_matrix_example.ipynb
+4. Content: Real example of the implementation of class listed above.
+5. File(s): matching_system_workflow.ipynb
+6. Content: Detailed Explanation of matching system workflow. (but priority is README.md file)
 
