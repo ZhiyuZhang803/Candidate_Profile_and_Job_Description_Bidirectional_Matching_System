@@ -37,7 +37,7 @@ In order to compare the similarity of two text-based content (candidate profile 
 ##### Construct Major Dataset
 - We use act.org online resource, combined with self-owned dataset, to construct a cleaned dataset that contains majors in the college as many as possible.
 1. File(s): webscrap_major.ipynb -> student_major.csv & student_major2.csv -> create student major.ipynb -> major.xlsx
-2. Content: Get job titles
+2. Content: Get college major from O * NET and do data cleaning. Result can be found in the corresponding excel files.
 
 #### Construct Skillset Folder
 ##### Construct Hardskill Set
