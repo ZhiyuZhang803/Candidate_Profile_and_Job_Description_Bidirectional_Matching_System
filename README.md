@@ -38,9 +38,12 @@ In order to compare the similarity of two text-based content (candidate profile 
 - We use act.org online resource, combined with self-owned dataset, to construct a cleaned dataset that contains majors in the college as many as possible.
 1. File(s): webscrap_major.ipynb -> student_major.csv & student_major2.csv -> create student major.ipynb -> major.xlsx
 2. Content: Get college major from O * NET and do data cleaning. Result can be found in the corresponding excel files.
+1. File(s): major.xlsx & more_majors.xlsx -> add_more_majors.ipynb -> temp_merged_major.xlsx
+2. Content: Combined self-owned major dataset with dataset from the first step, continually expand the dataset. Result can be found in the corresponding excel files.
 
 #### Construct Skillset Folder
 ##### Construct Hardskill Set
+- We use O * NET online resoures, combined with some acvanced data processing techniques, to construct a cleaned json-format dataset that can be passed in NLP SpaCy Named Entity Recognition.
 ##### Construct Softskill Set
 
 #### Profile Cleaning Before Input Folder
